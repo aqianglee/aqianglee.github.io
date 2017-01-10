@@ -1,5 +1,5 @@
 ---
 layout: home
 title: MyBlog
-type: all
+type: javascript
 ---

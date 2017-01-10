@@ -1,0 +1,16 @@
+.article {
+    background-color: #FBFBFB;
+    border: 1px solid #EEE;
+}
+
+.tags-label {
+    color: #555;
+}
+
+.tag {
+    color: #555;
+}
+
+.tag:active {
+    background-color: #BBB;
+}

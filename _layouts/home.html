@@ -1,18 +1,39 @@
 <html>
 <head>
 <title>{{page.title}}</title>
-<link rel="stylesheet" type="text/css" href="css/blog-theme-default.css">
-<link rel="stylesheet" type="text/css" href="css/blog-layout.css">
+<link rel="stylesheet" type="text/css" href="{{site.url}}/css/blog-theme-default.css">
+<link rel="stylesheet" type="text/css" href="{{site.url}}/css/blog-layout.css">
 </head>
 <body>
-    <header class="component"></header>
+    <header>
+        {% include header.html %}
+    </header>
+    <nav>
+        {% include nav.html %}
+    </nav>
     <div class="content component">
         {% for post in site.posts %}
-            <ul>
-                <li><a href="{{post.url}}">{{post.title}}</a></li>
-            </ul>
+            <div class="article">
+                <div class="title">
+                    <a href="{{post.url}}">{{post.title}}</a>
+                </div>
+                <div class="tags">
+                    <span class="tags-label">tags:</span>
+                    {% for tag in post.tags %}
+                        <a href="#" class="tag">{{tag}}</a>
+                    {% endfor %}
+                </div>
+                <div class="date">
+                    {{post.date | date: "%Y-%m-%d"}}
+                </div>
+                <div class="abstract">
+                    {{post.excerpt}}
+                </div>
+            </div>
         {% endfor %}
     </div>
-    <footer class="component"></footer>
+    <footer>
+        
+    </footer>
 </body>
 </html>

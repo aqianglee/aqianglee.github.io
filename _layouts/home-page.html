@@ -5,15 +5,17 @@
 <link rel="stylesheet" type="text/css" href="{{site.url}}/css/blog-layout.css">
 </head>
 <body>
-    <header class="component">
-
+    <header>
+        {% include header.html %}
     </header>
+    <nav>
+        {% include nav.html %}
+    </nav>
     <div class="content component">
-        <div>
-            <h1>{{page.title}}</h1>
-        </div>
         {{content}}
     </div>
-    <footer class="component"></footer>
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -22,6 +22,11 @@
     background-color: navy;
 }
 
+.page-header {
+    height: 90px;
+    background-color: navy;
+}
+
 .nav {
     height: 40px;
     background-color: #CCC;

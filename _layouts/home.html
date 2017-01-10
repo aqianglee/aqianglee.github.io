@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>{{page.title}}</title>
+<link rel="stylesheet" type="text/css" href="css/blog-theme-default.css">
+<link rel="stylesheet" type="text/css" href="css/blog-layout.css">
+</head>
+<body>
+    <header class="component"></header>
+    <div class="content component">
+        {% for post in site.posts %}
+            <ul>
+                <li><a href="{{post.url}}">{{post.title}}</a></li>
+            </ul>
+        {% endfor %}
+    </div>
+    <footer class="component"></footer>
+</body>
+</html>

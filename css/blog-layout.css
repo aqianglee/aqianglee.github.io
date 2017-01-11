@@ -8,23 +8,14 @@
     margin: 0 auto;
 }
 
-.article {
-    margin: 10px 0;
-    border-top-left-radius: 15px 10px;
-    border-top-right-radius: 15px 10px;
-    border-bottom-left-radius: 15px 10px;
-    border-bottom-right-radius: 15px 10px;
-    padding: 10px 25px;
-}
-
 .header {
     height: 140px;
-    background-color: navy;
+    background-color: #DDD;
 }
 
 .page-header {
     height: 90px;
-    background-color: navy;
+    background-color: #DDD;
 }
 
 .nav {
@@ -34,15 +25,45 @@
 
 .nav-item {
     line-height: 40px;
-    padding: 0 15px;
     font-size: 20px;
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-.nav-item-border {
-    border-right: 1px solid #DDD;
+.nav-item-middle {
+    padding: 0 15px;
+}
+
+.nav-item-left {
+    padding-right: 15px;
+}
+
+.nav-item-right {
+    padding-left: 15px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #DDD;
+    height: 40px;
+}
+
+.footer-content {
+    line-height: 40px;
+    color: #666;
+}
+
+.article {
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 10px 25px;
 }
 
 .title {
@@ -56,21 +77,20 @@
     text-decoration: none;
 }
 
+.tags {
+    margin: 10px 0;
+}
+
 .tags-label {
     font-size: 18px;
     font-weight: bold;
 }
 
-.tags {
-    margin: 10px 0;
-}
-
 .tag {
+    font-size: 18px;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #EEE;
-    border-top-left-radius: 15px 10px;
-    border-top-right-radius: 15px 10px;
-    border-bottom-left-radius: 15px 10px;
-    border-bottom-right-radius: 15px 10px;
+    padding: 5px 14px;
+    background-color: #DDD;
+    border-radius: 15px;
+    margin: 0 5px;
 }

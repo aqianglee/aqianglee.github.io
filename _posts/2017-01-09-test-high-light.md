@@ -1,4 +1,4 @@
 ---
 layout: article
-tags: test
+tags: java test
 ---

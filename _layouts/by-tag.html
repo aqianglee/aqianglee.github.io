@@ -11,20 +11,27 @@
     <nav>
         {% include nav.html %}
     </nav>
-    <div class="content component">
-        {% if page.type == 'all' %}
-            {% for article in site.posts %}
-                {% include article-item.html %}
-            {% endfor %}
-        {% else %}
-            {% for article in site.posts %}
-                {% for tag in article.tags %}
-                    {% if page.type == tag %}
+    <div class="component">
+        <div class="content-70">
+            {% if page.type == 'all' %}
+                {% for article in site.posts %}
+                    {% include article-item.html %}
+                {% endfor %}
+            {% else %}
+                {% assign articles = site.posts | map: "tags" %}
+                {% for article in site.posts %}
+                    {% if article.tags contains page.type %}
                         {% include article-item.html %}
                     {% endif %}
                 {% endfor %}
-            {% endfor %}
-        {% endif %}
+            {% endif %}
+        </div>
+        <div class="right-part-30">
+            <div class="tags-container">
+                {% include tags.html %}
+            </div>
+        </div>
+        <div style="clear: both"></div>
     </div>
     <footer>
         {% include footer.html %}

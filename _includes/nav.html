@@ -1,9 +1,9 @@
 <div class="nav">
     <div class="component">
         <a href="{{site.url}}/index.html" class="nav-item nav-item-left">Home</a>
-        <a href="{{site.url}}/pages/java.html" class="nav-item nav-item-middle">Java</a>
-        <a href="{{site.url}}/pages/javascript.html" class="nav-item nav-item-middle">Javascript</a>
-        <a href="{{site.url}}/pages/tags.html" class="nav-item nav-item-middle">Tags</a>
+        {% for menuitem in site.data.config.menuitems  %}
+            <a href="{{site.url}}/pages/{{menuitem}}.html" class="nav-item nav-item-middle">{{menuitem | capitalize}}</a>
+        {% endfor %}
         <a href="{{site.url}}/pages/about.html" class="nav-item nav-item-right">About</a>
     </div>
 </div>

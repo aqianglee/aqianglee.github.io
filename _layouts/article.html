@@ -11,11 +11,37 @@
     <nav>
         {% include nav.html %}
     </nav>
-    <div class="content component">
-        <div>
-            <h1>{{page.title}}</h1>
+    <div class="component">
+        <div class="content-70">
+            <article>
+                <div class="title">
+                    <h1>{{page.title}}</h1>
+                </div>
+                <div class="">
+                    {{content}}
+                </div>
+            </article>
         </div>
-        {{content}}
+        <div class="right-part-30">
+            {% for tag in page.tags %}
+                <div class="simple">
+                    <div class="recommend-tag">
+                        {{tag | capitalize}}
+                    </div>
+                    <div class="recommend-content">
+                        {% for article in site.posts %}
+                            {% if article.tags contains tag and article.title != page.title %}
+                                <a href="{{article.url}}" class="recommend-item">{{article.title}}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor%}
+            <div class="tags-container">
+                {% include tags.html %}
+            </div>
+        </div>
+        <div style="clear: both"></div>
     </div>
     <footer>
         {% include footer.html %}

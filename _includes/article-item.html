@@ -2,11 +2,11 @@
     <div class="title">
         <a href="{{article.url}}">{{article.title}}</a>
     </div>
-    {% if article.tags != '' %}
+    {% if article.tags != nil %}
     <div class="tags">
         <span class="tags-label">tags:</span>
         {% for tag in article.tags %}
-            <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{tag}}</a>
+            <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{tag | capitalize}}</a>
         {% endfor %}
     </div>
     {% endif %}

@@ -1,0 +1,3 @@
+{% for tag in site.data.config.tags %}
+    <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{tag | capitalize}}</a>
+{% endfor %}

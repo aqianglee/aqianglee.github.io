@@ -44,10 +44,7 @@
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
 }
 
 .footer {
@@ -94,3 +91,56 @@ footer {
     border-radius: 15px;
     margin: 0 5px;
 }
+
+/**
+ *  by-tag template
+ */
+
+ .content-70 {
+     float: left;
+     width: 69.8%;
+ }
+
+ .right-part-30 {
+     float: left;
+     width: 30%;
+ }
+
+ .tags-container {
+     margin: 25 10;
+ }
+
+/**
+ *  article
+ */
+
+ article {
+     margin: 20px 10px;
+ }
+
+ .title {
+     margin: 10px 0px;
+ }
+
+ .simple {
+     margin: 20px 10px;
+     border: 1px solid #EEE;
+     padding: 20px;
+     border-radius: 10px;
+ }
+
+ .recommend-tag {
+     font-size: 22px;
+ }
+
+ .recommend-content {
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+
+ .recommend-item {
+     text-decoration: none;
+     color: blue;
+     display: block;
+     line-height: 140%;
+ }

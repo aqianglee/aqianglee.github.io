@@ -1,5 +1,5 @@
 ---
-layout: home-page
+layout: menu-article
 title: About
 ---
 

@@ -1,5 +1,5 @@
 ---
 layout: by-tag
 title: MyBlog
-type: all
+type: java
 ---

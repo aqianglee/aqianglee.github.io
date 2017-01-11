@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: by-tag
 title: MyBlog
 type: test
 ---

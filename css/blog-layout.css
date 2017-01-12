@@ -89,7 +89,8 @@ footer {
     padding: 5px 14px;
     background-color: #DDD;
     border-radius: 15px;
-    margin: 0 5px;
+    margin: 5px;
+    display: inline-block;
 }
 
 /**
@@ -143,4 +144,8 @@ footer {
      color: blue;
      display: block;
      line-height: 140%;
+ }
+
+ p {
+     line-height: 150%;
  }

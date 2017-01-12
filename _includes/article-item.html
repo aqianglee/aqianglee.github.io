@@ -6,7 +6,7 @@
     <div class="tags">
         <span class="tags-label">tags:</span>
         {% for tag in article.tags %}
-            <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{tag | capitalize}}</a>
+            <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{site.data.config.tag-label[tag]}}</a>
         {% endfor %}
     </div>
     {% endif %}

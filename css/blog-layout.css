@@ -33,6 +33,7 @@
 
 .nav-item-middle {
     padding: 0 15px;
+    border-left: 1px solid #DDD;
 }
 
 .nav-item-left {
@@ -41,6 +42,7 @@
 
 .nav-item-right {
     padding-left: 15px;
+    border-left: 1px solid #DDD;
 }
 
 footer {

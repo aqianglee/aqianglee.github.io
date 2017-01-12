@@ -5,6 +5,15 @@
     ],
 
     "tags":[
-        'java','javascript','test', 'diary', 'life'
-    ]
+        'java','javascript','test', 'diary', 'life', 'web'
+    ],
+
+    "tag-label": {
+        "java":"Java",
+        "javascript": "Javascript",
+        "test": "Test",
+        "diary": "日记",
+        "life": "生活",
+        "web": "Web"
+    }
 }

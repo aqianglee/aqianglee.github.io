@@ -1,5 +1,5 @@
 ---
 layout: by-tag
-title: MyBlog
+title: Web
 type: web
 ---

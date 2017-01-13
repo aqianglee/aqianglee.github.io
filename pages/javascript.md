@@ -1,5 +1,5 @@
 ---
 layout: by-tag
-title: MyBlog
+title: Javascript
 type: javascript
 ---

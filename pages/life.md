@@ -1,5 +1,5 @@
 ---
 layout: by-tag
-title: Java
+title: Life
 type: life
 ---

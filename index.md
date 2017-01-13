@@ -1,5 +1,5 @@
 ---
 layout: by-tag
-title: MyBlog
+title: Kyo blog
 type: all
 ---

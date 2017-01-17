@@ -159,4 +159,5 @@ code {
     background-color: #EEE;
     display: block;
     font-size: 15;
+    overflow-x: scroll;
 }

@@ -43,8 +43,24 @@ printf("测试注释");
 
 ### 向浏览器打印信息
 
-&emsp;&emsp;php有很多可以打印消息到浏览器的方法。echo，print，printf等都可以打印消息到浏览器中。它们的用发大致相同，如下：
+&emsp;&emsp;php有很多可以打印消息到浏览器的方法。echo，print，printf等都可以打印消息到浏览器中。它们的用发大致相同,但也有一点区别。如下：
+
+&emsp;&emsp;echo可以输出多条信息到浏览器，它接受参数是字符串，也可以是字符串数组。如果是字符串数组，逐个输出字符串。
+
+&emsp;&emsp;print只能输出字符串。功能最小
+
+&emsp;&emsp;printf不仅可以输出字符串，而且可以在字符串中设置占位符，并在后面的参数中给出，最后格式化成完整的字符串输出。类似c语言中的printf。
+
+&emsp;&emsp;sprintf和printf相同，但是它将结果以返回值的形式保存在变量中，而不是输出到浏览器。
 
 ```
+<?php
+    echo "Hello World<br>";
+    print "Hello World<br>";
+    print("Hello World<br>");
+    printf("Hello World<br>");
 
+    echo "this is message1<br>", "this is message2<br>", "this is message3<br>", "this is message4<br>", "this is message5<br>";
+    printf("there are %d messages<br>", 3);
+?>
 ```

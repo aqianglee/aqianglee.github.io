@@ -45,9 +45,7 @@
     border-left: 1px solid #DDD;
 }
 
-footer {
-
-}
+footer {}
 
 .footer {
     background-color: #DDD;
@@ -95,59 +93,70 @@ footer {
     display: inline-block;
 }
 
+
 /**
  *  by-tag template
  */
 
- .content-70 {
-     float: left;
-     width: 69.8%;
- }
+.content-70 {
+    float: left;
+    width: 69.8%;
+}
 
- .right-part-30 {
-     float: left;
-     width: 30%;
- }
+.right-part-30 {
+    float: left;
+    width: 30%;
+}
 
- .tags-container {
-     margin: 25 10;
- }
+.tags-container {
+    margin: 25 10;
+}
+
 
 /**
- *  article
- */
+*  article
+*/
 
- article {
-     margin: 20px 10px;
- }
+article {
+    margin: 20px 10px;
+}
 
- .title {
-     margin: 10px 0px;
- }
+.title {
+    margin: 10px 0px;
+}
 
- .simple {
-     margin: 20px 10px;
-     border: 1px solid #EEE;
-     padding: 20px;
-     border-radius: 10px;
- }
+.simple {
+    margin: 20px 10px;
+    border: 1px solid #EEE;
+    padding: 20px;
+    border-radius: 10px;
+}
 
- .recommend-tag {
-     font-size: 22px;
- }
+.recommend-tag {
+    font-size: 22px;
+}
 
- .recommend-content {
-     margin-top: 10px;
-     margin-left: 10px;
- }
+.recommend-content {
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
- .recommend-item {
-     text-decoration: none;
-     color: blue;
-     display: block;
-     line-height: 140%;
- }
+.recommend-item {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    line-height: 140%;
+}
 
- p {
-     line-height: 150%;
- }
+p {
+    line-height: 150%;
+    font-family: 微软雅黑;
+}
+
+code {
+    padding: 10;
+    margin: 1em 2em;
+    background-color: #EEE;
+    display: block;
+    font-size: 15;
+}

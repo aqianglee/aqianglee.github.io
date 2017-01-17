@@ -1,6 +1,5 @@
 ---
 layout: by-tag
-title: Web
-type: web
+title: Php
+type: php
 ---
- 

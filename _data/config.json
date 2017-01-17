@@ -1,19 +1,20 @@
 {
 
-    "menuitems":[
-        'java','javascript','test'
+    "menuitems": [
+        'java', 'javascript', 'test'
     ],
 
-    "tags":[
-        'java','javascript','test', 'diary', 'life', 'web'
+    "tags": [
+        'java', 'javascript', 'test', 'diary', 'life', 'web', 'php'
     ],
 
     "tag-label": {
-        "java":"Java",
+        "java": "Java",
         "javascript": "Javascript",
         "test": "Test",
         "diary": "日记",
         "life": "生活",
-        "web": "Web"
+        "web": "Web",
+        "php": "Php"
     }
 }

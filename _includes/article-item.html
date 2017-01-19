@@ -4,10 +4,8 @@
     </div>
     {% if article.tags != nil %}
     <div class="tags">
-        <span class="tags-label">tags:</span>
-        {% for tag in article.tags %}
-            <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{site.data.config.tag-label[tag]}}</a>
-        {% endfor %}
+        <span class="tags-label">tags:</span> {% for tag in article.tags %}
+        <a href="{{site.url}}/pages/{{tag}}.html" class="tag">{{site.data.config.tag-label[tag]}}</a> {% endfor %}
     </div>
     {% endif %}
     <div class="date">

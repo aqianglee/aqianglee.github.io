@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+ul {
+    margin-left: 1em;
+}
+
 .component {
     width: 60%;
     margin: 0 auto;

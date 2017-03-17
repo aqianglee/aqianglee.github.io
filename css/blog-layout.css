@@ -169,6 +169,7 @@ code {
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 10px auto;
 }
 
 th {
@@ -178,7 +179,7 @@ th {
     font-family: 黑体;
 }
 
-thead tr {
+thead>tr {
     background-color: #666;
     color: white;
 }
@@ -191,7 +192,19 @@ tbody>tr:nth-child(even) {
     background-color: #DDD;
 }
 
+tbody>tr:not(:last-of-type) {
+    border-bottom: 1px solid #BBB;
+}
+
 th, td {
     padding: 7px 15px;
     margin: 0px;
+}
+
+th:not(:last-of-type) {
+    border-right: 1px solid #EEE;
+}
+
+td:not(:last-of-type) {
+    border-right: 1px solid #BBB;
 }

@@ -5,7 +5,7 @@
     ],
 
     "tags": [
-        'java', 'javascript', 'test', 'diary', 'life', 'web', 'php', 'maven'
+        'java', 'javascript', 'test', 'diary', 'life', 'web', 'php', 'maven', 'css'
     ],
 
     "tag-label": {
@@ -15,7 +15,8 @@
         "diary": "日记",
         "life": "生活",
         "web": "Web",
-        "php": "Php",
-        "maven": "Maven"
+        "php": "PHP",
+        "maven": "Maven",
+        "css": "CSS"
     }
 }

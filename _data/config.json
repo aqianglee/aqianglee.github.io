@@ -1,11 +1,11 @@
 {
 
     "menuitems": [
-        'java', 'javascript', 'test'
+        'java','Work', 'javascript', 'test'
     ],
 
     "tags": [
-        'java', 'javascript', 'test', 'diary', 'life', 'web', 'php', 'maven', 'css'
+        'java', 'work','javascript', 'test', 'diary', 'life', 'web', 'php', 'maven', 'css'
     ],
 
     "tag-label": {
@@ -17,6 +17,7 @@
         "web": "Web",
         "php": "PHP",
         "maven": "Maven",
-        "css": "CSS"
+        "css": "CSS",
+        "work": "Work"
     }
 }
